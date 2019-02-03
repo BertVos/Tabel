@@ -10,6 +10,23 @@ import UIKit
 
 class VasteTableViewController: UITableViewController {
 
+     var dateFormatter = DateFormatter()
+    
+    
+    
+    
+    @IBAction func morgenSwitch(_ sender: Any) {
+        
+        
+        
+    }
+    
+            
+            
+   
+    
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,12 +41,14 @@ class VasteTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 2
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 4
+        if section == 0{
+            return 4
+        } else { return 2
+        }
     }
 
     /*
