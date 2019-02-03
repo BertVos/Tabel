@@ -15,13 +15,7 @@ class VasteTableViewController: UITableViewController {
     
     
     
-    @IBAction func morgenSwitch(_ sender: Any) {
-        
-        
-        
-    }
-    
-            
+  
             
    
     
