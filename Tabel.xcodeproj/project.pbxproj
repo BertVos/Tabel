@@ -12,6 +12,7 @@
 		9ECB6589220720D40093FAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECB6587220720D40093FAC3 /* Main.storyboard */; };
 		9ECB658B220720D50093FAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ECB658A220720D50093FAC3 /* Assets.xcassets */; };
 		9ECB658E220720D50093FAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECB658C220720D50093FAC3 /* LaunchScreen.storyboard */; };
+		9ECB65962207228A0093FAC3 /* VasteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECB65952207228A0093FAC3 /* VasteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9ECB658A220720D50093FAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ECB658D220720D50093FAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ECB658F220720D50093FAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECB65952207228A0093FAC3 /* VasteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasteTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				9ECB6583220720D40093FAC3 /* AppDelegate.swift */,
 				9ECB6585220720D40093FAC3 /* ViewController.swift */,
 				9ECB6587220720D40093FAC3 /* Main.storyboard */,
+				9ECB65952207228A0093FAC3 /* VasteTableViewController.swift */,
 				9ECB658A220720D50093FAC3 /* Assets.xcassets */,
 				9ECB658C220720D50093FAC3 /* LaunchScreen.storyboard */,
 				9ECB658F220720D50093FAC3 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ECB6586220720D40093FAC3 /* ViewController.swift in Sources */,
+				9ECB65962207228A0093FAC3 /* VasteTableViewController.swift in Sources */,
 				9ECB6584220720D40093FAC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
